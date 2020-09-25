@@ -6,9 +6,9 @@
 default['sphinx'] = {
   'utility_name' => 'sphinx',
 
-  # The version of sphinx to install
-  # Default: 2.1.9
-  'version' => '2.1.9',
+  # The version of sphinx to install on v6
+  # Default: 2.2.11-2
+  'version' => '2.2.11-2',
   
   # Applications that use sphinx
   # Default: all applications on the environment

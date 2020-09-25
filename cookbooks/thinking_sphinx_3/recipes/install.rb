@@ -10,11 +10,11 @@ if node['sphinx']['is_thinking_sphinx_instance']
     end
   
     # install package
-    enable_package "app-misc/sphinx" do
+    enable_package "sphinxsearch" do
       version node['sphinx']['version']
     end
   
-    package "app-misc/sphinx" do
+    apt_package "sphinxsearch" do
       version node['sphinx']['version']
       action :install
     end
